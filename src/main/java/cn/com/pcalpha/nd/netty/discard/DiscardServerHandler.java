@@ -24,8 +24,8 @@ public class DiscardServerHandler extends ChannelHandlerAdapter {
         String response = "handler1";
         System.out.println("handler1");
         ChannelFuture f = ctx.write(Unpooled.copiedBuffer(response.getBytes()));
-        //f.addListener(ChannelFutureListener.CLOSE);
-        ctx.fireChannelRead(msg);
+        //f.addListener(ChannelFutureListener.CLOSE);//关闭只能通过Server端
+        ctx.fireChannelRead(msg);//触发下个handler
     }
 
     @Override
