@@ -15,6 +15,7 @@ import io.netty.handler.codec.string.StringDecoder;
 
 /**
  * Created by caiyida on 2016/11/29.
+ * 解决粘包问题
  */
 public class Server {
 
