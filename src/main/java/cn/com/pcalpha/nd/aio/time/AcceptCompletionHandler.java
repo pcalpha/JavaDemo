@@ -5,11 +5,11 @@ import java.nio.channels.AsynchronousSocketChannel;
 import java.nio.channels.CompletionHandler;
 
 public class AcceptCompletionHandler implements
-        CompletionHandler<AsynchronousSocketChannel, AsyncTimeServerHandler> {
+        CompletionHandler<AsynchronousSocketChannel, AsyncTimeServer> {
 
     @Override
     public void completed(AsynchronousSocketChannel result,
-                          AsyncTimeServerHandler attachment) {
+                          AsyncTimeServer attachment) {
         /**
          * 可能读者在此可能会心存疑惑，既然已经接收客户端成功了，为什么还要再次调用accept方法呢？
          * 原因是这样的：当我们调用AsynchronousServerSocketChannel的accept方法后，
@@ -23,7 +23,7 @@ public class AcceptCompletionHandler implements
     }
 
     @Override
-    public void failed(Throwable exc, AsyncTimeServerHandler attachment) {
+    public void failed(Throwable exc, AsyncTimeServer attachment) {
         exc.printStackTrace();
         attachment.latch.countDown();
     }
