@@ -8,14 +8,14 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class AsyncTimeServerHandler {
+public class AsyncTimeServer {
 
     private int port;
 
     CountDownLatch latch;
     AsynchronousServerSocketChannel asynchronousServerSocketChannel;
 
-    public AsyncTimeServerHandler(int port) {
+    public AsyncTimeServer(int port) {
         this.port = port;
         try {
             ExecutorService executorService = Executors.newCachedThreadPool();
@@ -35,24 +35,21 @@ public class AsyncTimeServerHandler {
         }
     }
 
-//    /*
-//     * (non-Javadoc)
-//     *
-//     * @see java.lang.Runnable#run()
-//     */
-//    @Override
-//    public void run() {
-//
-//        //latch = new CountDownLatch(1);
-//        doAccept();
-////        try {
-////            latch.await();
-////        } catch (InterruptedException e) {
-////            e.printStackTrace();
-////        }
-//    }
-//
-//    public void doAccept() {
-//
-//    }
+    /**
+     * @param args
+     * @throws IOException
+     */
+    public static void main(String[] args) throws IOException {
+        int port = 8080;
+        if (args != null && args.length > 0) {
+            try {
+                port = Integer.valueOf(args[0]);
+            } catch (NumberFormatException e) {
+                // 采用默认值
+            }
+        }
+        AsyncTimeServer timeServer = new AsyncTimeServer(port);
+        // new Thread(timeServer, "AIO-AsyncTimeServerHandler-001").start();
+    }
+
 }
