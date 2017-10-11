@@ -35,12 +35,10 @@ public class Server {
                     //一定要使用 childHandler 去绑定具体的 事件处理器
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
-                            ByteBuf byteBuf = Unpooled.copiedBuffer("$_".getBytes());
-                            socketChannel.pipeline().addLast(new DelimiterBasedFrameDecoder(1024,byteBuf));
+                            ByteBuf byteBuf = Unpooled.copiedBuffer("$_".getBytes());//自定义分隔符
+                            socketChannel.pipeline().addLast(new DelimiterBasedFrameDecoder(1024,byteBuf));//设置分隔符解析
                             socketChannel.pipeline().addLast(new StringDecoder());
                             socketChannel.pipeline().addLast(new ServerHandler());
-
-
                         }
                     })
                     .option(ChannelOption.SO_BACKLOG,1024)
