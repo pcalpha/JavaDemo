@@ -8,15 +8,15 @@ import java.nio.channels.AsynchronousSocketChannel;
 import java.nio.channels.CompletionHandler;
 import java.util.concurrent.CountDownLatch;
 
-public class AsyncTimeClientHandler implements
-        CompletionHandler<Void, AsyncTimeClientHandler>, Runnable {
+public class AsyncTimeClient implements
+        CompletionHandler<Void, AsyncTimeClient>, Runnable {
 
     private AsynchronousSocketChannel client;
     private String host;
     private int port;
     private CountDownLatch latch;
 
-    public AsyncTimeClientHandler(String host, int port) {
+    public AsyncTimeClient(String host, int port) {
         this.host = host;
         this.port = port;
         try {
@@ -43,7 +43,7 @@ public class AsyncTimeClientHandler implements
     }
 
     @Override
-    public void completed(Void result, AsyncTimeClientHandler attachment) {
+    public void completed(Void result, AsyncTimeClient attachment) {
         byte[] req = "QUERY TIME ORDER".getBytes();
         ByteBuffer writeBuffer = ByteBuffer.allocate(req.length);
         writeBuffer.put(req);
@@ -101,7 +101,7 @@ public class AsyncTimeClientHandler implements
     }
 
     @Override
-    public void failed(Throwable exc, AsyncTimeClientHandler attachment) {
+    public void failed(Throwable exc, AsyncTimeClient attachment) {
         exc.printStackTrace();
         try {
             client.close();
@@ -109,5 +109,22 @@ public class AsyncTimeClientHandler implements
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        int port = 8080;
+        if (args != null && args.length > 0) {
+            try {
+                port = Integer.valueOf(args[0]);
+            } catch (NumberFormatException e) {
+                // 采用默认值
+            }
+        }
+        new Thread(new AsyncTimeClient("127.0.0.1", port),
+                "AIO-AsyncTimeClientHandler-001").start();
+
     }
 }
