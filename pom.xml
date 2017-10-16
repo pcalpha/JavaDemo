@@ -1,20 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>JavaDemo</artifactId>
+        <groupId>cn.com.pcalpha</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.com.pcalpha</groupId>
-    <artifactId>JavaDemo</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>NioDemo</module>
-        <module>DisruptorDemo</module>
-        <module>DesignPattern</module>
-        <module>MultiThreadDemo</module>
-        <module>ActivemqDemo</module>
-    </modules>
-    <packaging>pom</packaging>
+    <artifactId>nio</artifactId>
+    <packaging>jar</packaging>
 
-    <name>JavaDemo</name>
+    <name>nio</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -22,6 +18,21 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>5.0.0.Alpha2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.jboss.marshalling/jboss-marshalling -->
+        <dependency>
+            <groupId>org.jboss.marshalling</groupId>
+            <artifactId>jboss-marshalling</artifactId>
+            <version>1.4.11.Final</version>
+        </dependency>
+
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
