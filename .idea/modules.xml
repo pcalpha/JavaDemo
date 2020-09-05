@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ActivemqDemo/ActivemqDemo.iml" filepath="$PROJECT_DIR$/ActivemqDemo/ActivemqDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/DisruptorDemo/DisruptorDemo.iml" filepath="$PROJECT_DIR$/DisruptorDemo/DisruptorDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GcTest/GcTest.iml" filepath="$PROJECT_DIR$/GcTest/GcTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaDemo.iml" filepath="$PROJECT_DIR$/JavaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultiThreadDemo/MultiThreadDemo.iml" filepath="$PROJECT_DIR$/MultiThreadDemo/MultiThreadDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/NioDemo/NioDemo.iml" filepath="$PROJECT_DIR$/NioDemo/NioDemo.iml" />

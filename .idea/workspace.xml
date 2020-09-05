@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea4cc5bd-ce26-405b-b0a4-50d5b264104a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jms_jms_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivemqDemo/ActivemqDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ActivemqDemo/ActivemqDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActivemqDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ActivemqDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GcTest/GcTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GcTest/GcTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NioDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/aio/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/aio/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/aio/ServerCompletionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/aio/time/AcceptCompletionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/aio/time/AsyncTimeClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/aio/time/AsyncTimeServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/aio/time/ReadCompletionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/bio1/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/bio1/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/bio1/ServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/bio2/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/bio2/HandlerExecutorPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/bio2/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/bio2/ServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/delimiter/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/delimiter/ClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/delimiter/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/delimiter/ServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/discard/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/discard/ClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/discard/DiscardServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/discard/DiscardServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/discard/DiscardServerHandler2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/echo/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/echo/ClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/echo/DiscardServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/echo/DiscardServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/heart/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/heart/ClientHeartBeatHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/heart/RequestInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/heart/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/heart/ServerHeartBeatHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/serialize/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/serialize/ClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/serialize/MarshallingCodeCFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/serialize/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/serialize/ServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/netty/test/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/nio/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/nio/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/test/Father.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/pcalpha/nd/test/Son.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cn/com/pcalpha/dd/AppTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1h5s0d5REk5axALWzXDrjzs4kwZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea4cc5bd-ce26-405b-b0a4-50d5b264104a" name="Default Changelist" comment="" />
+      <created>1599312065555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599312065555</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
