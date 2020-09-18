@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring" />
         <module name="DesignPattern" />
         <module name="DisruptorDemo" />
         <module name="ActivemqDemo" />
-        <module name="JavaDemo" />
+        <module name="cn.com.pcalpha.spring" />
         <module name="GcTest" />
         <module name="NioDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.7">
       <module name="ActivemqDemo" target="1.5" />
+      <module name="cn.com.pcalpha.spring" target="1.7" />
       <module name="DesignPattern" target="1.5" />
       <module name="DisruptorDemo" target="1.5" />
       <module name="GcTest" target="1.5" />
@@ -23,6 +25,7 @@
       <module name="MultiThreadDemo" target="1.5" />
       <module name="nio" target="1.5" />
       <module name="NioDemo" target="1.5" />
+      <module name="Spring" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

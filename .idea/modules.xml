@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/JavaDemo.iml" filepath="$PROJECT_DIR$/JavaDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultiThreadDemo/MultiThreadDemo.iml" filepath="$PROJECT_DIR$/MultiThreadDemo/MultiThreadDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/NioDemo/NioDemo.iml" filepath="$PROJECT_DIR$/NioDemo/NioDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/Spring.iml" filepath="$PROJECT_DIR$/Spring/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring/cn.com.pcalpha.spring.iml" filepath="$PROJECT_DIR$/Spring/cn.com.pcalpha.spring.iml" />
     </modules>
   </component>
 </project>

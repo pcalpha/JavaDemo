@@ -1,7 +1,6 @@
 package cn.com.pcalpha.dd.disruptor2;
 
 import com.lmax.disruptor.*;
-import org.junit.Test;
 
 import java.util.concurrent.*;
 
