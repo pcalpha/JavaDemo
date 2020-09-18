@@ -1,23 +1,25 @@
-package cn.com.pcalpha.nd.netty.echo;
+package cn.com.pcalpha.nd.netty.discard;
 
+import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
-import io.netty.util.ReferenceCountUtil;
+import io.netty.channel.ChannelInboundHandlerAdapter;
 
 /**
  * Created by caiyida on 2016/11/20.
  */
-public class ClientHandler extends ChannelHandlerAdapter {
+public class ClientHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         try {
             //do something msg
-            System.out.println(msg.getClass());
-            String buf = (String) msg;
+            String response = (String) msg;
+            System.out.println("Client: " + response);
 
-            System.out.println("Client: " + buf);
+            ctx.writeAndFlush(Unpooled.copiedBuffer("777".getBytes()));
+
         } finally {
-            ReferenceCountUtil.release(msg);
+            //ReferenceCountUtil.release(msg);
         }
     }
 

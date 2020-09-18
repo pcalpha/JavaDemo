@@ -2,6 +2,7 @@ package cn.com.pcalpha.nd.netty.heart;
 
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelInboundHandlerAdapter;
 
 import java.net.InetAddress;
 import java.util.HashMap;
@@ -13,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by caiyida on 2016/12/1.
  */
-public class ClientHeartBeatHandler extends ChannelHandlerAdapter {
+public class ClientHeartBeatHandler extends ChannelInboundHandlerAdapter {
 
     private ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
     private java.util.concurrent.ScheduledFuture<?> heartBeat;

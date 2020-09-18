@@ -3,6 +3,7 @@ package cn.com.pcalpha.nd.netty.heart;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelInboundHandlerAdapter;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +11,7 @@ import java.util.Map;
 /**
  * Created by caiyida on 2016/12/1.
  */
-public class ServerHeartBeatHandler extends ChannelHandlerAdapter {
+public class ServerHeartBeatHandler extends ChannelInboundHandlerAdapter {
     private static HashMap<String, String> AUTH_IP_MAP = new HashMap<String, String>();
     private static final String SUCCESS_KEY = "auth_success_key";
 
